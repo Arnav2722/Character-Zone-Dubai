@@ -49,7 +49,7 @@ const AboutUs = () => {
           >
             <span className="mb-4 inline-block text-5xl">🧸</span>
             <h1 className="font-display text-4xl font-bold text-foreground md:text-5xl">
-              About <span className="text-primary">ToyHaven</span>
+              About <span className="text-primary">Characters Zone</span>
             </h1>
             <p className="mt-4 text-lg text-muted-foreground md:text-xl">
               Your trusted toy destination in the United Arab Emirates —
@@ -79,11 +79,11 @@ const AboutUs = () => {
                 Born from a Love of Play
               </h2>
               <p className="mt-4 leading-relaxed text-muted-foreground">
-                ToyHaven started as a small family venture in Dubai, driven by a
-                simple idea: every child deserves toys that inspire creativity,
-                learning, and pure happiness. What began as a passion project
-                quickly grew into one of the UAE's most trusted toy
-                destinations.
+                Characters Zone started as a small family venture in Dubai,
+                driven by a simple idea: every child deserves toys that inspire
+                creativity, learning, and pure happiness. What began as a
+                passion project quickly grew into one of the UAE's most trusted
+                toy destinations.
               </p>
               <p className="mt-4 leading-relaxed text-muted-foreground">
                 Today, we curate hundreds of products from leading international

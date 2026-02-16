@@ -21,9 +21,9 @@ const Header = () => {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
-          <span className="text-2xl">🧸</span>
+          {/* <span className="text-2xl">🧸</span> */}
           <span className="font-display text-2xl font-bold text-primary">
-            ToyHaven
+            Characters Zone
           </span>
           <span className="hidden text-xs font-semibold text-secondary sm:inline-block">
             UAE
@@ -61,7 +61,7 @@ const Header = () => {
               >
                 <span className="text-2xl">🧸</span>
                 <span className="font-display text-xl font-bold text-primary">
-                  ToyHaven
+                  Characters Zone
                 </span>
               </Link>
               {navItems.map((item) => (
