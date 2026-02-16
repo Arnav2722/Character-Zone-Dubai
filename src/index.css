@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 40% 98%;
+    --foreground: 222 20% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 20% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 20% 15%;
+
+    --primary: 14 90% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 174 60% 41%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 30 20% 93%;
+    --muted-foreground: 222 10% 45%;
+
+    --accent: 43 96% 56%;
+    --accent-foreground: 0 0% 10%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 30 20% 88%;
+    --input: 30 20% 88%;
+    --ring: 14 90% 58%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Custom ToyHaven tokens */
+    --toy-gradient: linear-gradient(135deg, hsl(14, 90%, 58%), hsl(43, 96%, 56%));
+    --toy-gradient-reverse: linear-gradient(135deg, hsl(174, 60%, 41%), hsl(200, 70%, 50%));
+    --toy-shadow: 0 4px 20px -4px hsl(14 90% 58% / 0.2);
+    --toy-shadow-lg: 0 10px 40px -8px hsl(14 90% 58% / 0.25);
+  }
+
+  .dark {
+    --background: 222 20% 8%;
+    --foreground: 30 20% 95%;
+
+    --card: 222 20% 12%;
+    --card-foreground: 30 20% 95%;
+
+    --popover: 222 20% 12%;
+    --popover-foreground: 30 20% 95%;
+
+    --primary: 14 90% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 174 50% 30%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 222 15% 18%;
+    --muted-foreground: 222 10% 60%;
+
+    --accent: 43 80% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 222 15% 20%;
+    --input: 222 15% 20%;
+    --ring: 14 90% 58%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .toy-gradient {
+    background: var(--toy-gradient);
+  }
+
+  .toy-gradient-reverse {
+    background: var(--toy-gradient-reverse);
+  }
+
+  .toy-shadow {
+    box-shadow: var(--toy-shadow);
+  }
+
+  .toy-shadow-lg {
+    box-shadow: var(--toy-shadow-lg);
+  }
+}
