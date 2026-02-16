@@ -4,7 +4,7 @@ const WhatsAppButton = () => {
   // Replace with your UAE WhatsApp number (without + or spaces)
   const whatsappNumber = "971XXXXXXXXX";
   const message = encodeURIComponent(
-    "Hello Characters Zone! I'd like to know more about your products."
+    "Hello ToyHaven! I'd like to know more about your products."
   );
 
   return (

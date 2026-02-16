@@ -7,7 +7,9 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const navItems = [
   { to: "/", label: "Home" },
+  { to: "/about", label: "About Us" },
   { to: "/products", label: "Products" },
+  { to: "/blogs", label: "Blog" },
   { to: "/contact", label: "Contact Us" },
 ];
 
@@ -21,7 +23,7 @@ const Header = () => {
         <Link to="/" className="flex items-center gap-2">
           <span className="text-2xl">🧸</span>
           <span className="font-display text-2xl font-bold text-primary">
-            Characters Zone
+            ToyHaven
           </span>
           <span className="hidden text-xs font-semibold text-secondary sm:inline-block">
             UAE

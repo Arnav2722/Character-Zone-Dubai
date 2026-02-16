@@ -8,9 +8,7 @@ import ProductCard from "@/components/ProductCard";
 import { categories } from "@/data/categories";
 import { products } from "@/data/products";
 
-const featuredProducts = products
-  .filter((p) => p.isNew || p.isFeatured)
-  .slice(0, 8);
+const featuredProducts = products.filter((p) => p.isNew || p.isFeatured).slice(0, 8);
 
 const trustFeatures = [
   {
@@ -94,7 +92,11 @@ const Index = () => {
 
           <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {featuredProducts.map((product, index) => (
-              <ProductCard key={product.id} product={product} index={index} />
+              <ProductCard
+                key={product.id}
+                product={product}
+                index={index}
+              />
             ))}
           </div>
         </div>
@@ -110,7 +112,7 @@ const Index = () => {
             className="mb-10 text-center"
           >
             <h2 className="font-display text-3xl font-bold text-foreground md:text-4xl">
-              Why Choose Characters Zone?
+              Why Choose ToyHaven?
             </h2>
             <p className="mt-2 text-muted-foreground">
               Trusted by families across the UAE

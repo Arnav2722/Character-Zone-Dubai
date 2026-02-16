@@ -10,9 +10,7 @@ const Footer = () => {
           <div>
             <Link to="/" className="mb-4 flex items-center gap-2">
               <span className="text-2xl">🧸</span>
-              <span className="font-display text-xl font-bold">
-                Characters Zone
-              </span>
+              <span className="font-display text-xl font-bold">ToyHaven</span>
             </Link>
             <p className="text-sm leading-relaxed opacity-70">
               Your trusted toy destination in the UAE. We bring joy to children
@@ -32,19 +30,28 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/products"
-                  className="transition-opacity hover:opacity-100"
-                >
+                <Link to="/about" className="transition-opacity hover:opacity-100">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link to="/products" className="transition-opacity hover:opacity-100">
                   Products
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/contact"
-                  className="transition-opacity hover:opacity-100"
-                >
+                <Link to="/blogs" className="transition-opacity hover:opacity-100">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="transition-opacity hover:opacity-100">
                   Contact Us
+                </Link>
+              </li>
+              <li>
+                <Link to="/terms" className="transition-opacity hover:opacity-100">
+                  Terms & Conditions
                 </Link>
               </li>
             </ul>
@@ -57,34 +64,22 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2 text-sm opacity-70">
               <li>
-                <Link
-                  to="/products?category=action-figures"
-                  className="transition-opacity hover:opacity-100"
-                >
+                <Link to="/products?category=action-figures" className="transition-opacity hover:opacity-100">
                   Action Figures
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/products?category=educational-stem"
-                  className="transition-opacity hover:opacity-100"
-                >
+                <Link to="/products?category=educational-stem" className="transition-opacity hover:opacity-100">
                   Educational & STEM
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/products?category=building-construction"
-                  className="transition-opacity hover:opacity-100"
-                >
+                <Link to="/products?category=building-construction" className="transition-opacity hover:opacity-100">
                   Building & Construction
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/products?category=baby-toddler"
-                  className="transition-opacity hover:opacity-100"
-                >
+                <Link to="/products?category=baby-toddler" className="transition-opacity hover:opacity-100">
                   Baby & Toddler
                 </Link>
               </li>
@@ -119,10 +114,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="mt-10 border-t border-background/10 pt-6 text-center text-sm opacity-50">
-          <p>
-            &copy; {new Date().getFullYear()} Characters Zone UAE. All rights
-            reserved.
-          </p>
+          <p>&copy; {new Date().getFullYear()} ToyHaven UAE. All rights reserved.</p>
         </div>
       </div>
     </footer>
