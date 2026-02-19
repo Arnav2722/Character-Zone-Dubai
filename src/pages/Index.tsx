@@ -196,27 +196,27 @@ const shopByAge = [
   {
     label: "0-18 MONTH",
     value: "0-18m",
-    img: "https://placehold.co/200x200/FFEB3B/000000?text=Baby",
+    img: "../products/shopByAge/baby.jpeg",
   },
   {
     label: "18-36 MONTH",
     value: "18-36m",
-    img: "https://placehold.co/200x200/FFC107/000000?text=Toddler",
+    img: "../products/shopByAge/2yoChild.jpeg",
   },
   {
     label: "3-5 YEARS",
     value: "3-5y",
-    img: "https://placehold.co/200x200/FF9800/FFFFFF?text=Preschool",
+    img: "../products/shopByAge/5yo.jpg",
   },
   {
     label: "6-8 YEARS",
     value: "6-8y",
-    img: "https://placehold.co/200x200/FF5722/FFFFFF?text=Kid",
+    img: "../products/shopByAge/8yo.jpg",
   },
   {
     label: "9-14 YEARS",
     value: "9-14y",
-    img: "https://placehold.co/200x200/F44336/FFFFFF?text=Preteen",
+    img: "../products/shopByAge/12yo.jpg",
   },
 ];
 
@@ -231,69 +231,69 @@ const bestBuys = [
   {
     label: "Scooters",
     discount: "up to 20%",
-    img: "https://placehold.co/150x150/png?text=Scooter",
+    img: "../products/scooter.jpeg",
     link: "/products?category=scooters",
   },
   {
     label: "Build and Create",
     discount: "up to 40%",
-    img: "https://placehold.co/150x150/png?text=Blocks",
+    img: "../products/build&Create.jpeg",
     link: "/products?category=building",
   },
   {
     label: "RC and Diecast",
     discount: "up to 30%",
-    img: "https://placehold.co/150x150/png?text=RC+Car",
+    img: "../products/rcCars.jpeg",
     link: "/products?category=rc",
   },
   {
     label: "Rideons",
     discount: "up to 70%",
-    img: "https://placehold.co/150x150/png?text=Ride-on",
+    img: "../products/rideOns.jpeg",
     link: "/products?category=rideons",
   },
   {
     label: "Strollers",
     discount: "up to 50%",
-    img: "https://placehold.co/150x150/png?text=Stroller",
+    img: "../products/strollers.jpeg",
     link: "/products?category=strollers",
   },
   {
     label: "Bicycles",
     discount: "up to 30%",
-    img: "https://placehold.co/150x150/png?text=Bicycle",
+    img: "../products/bicycle.jpeg",
     link: "/products?category=bicycles",
   },
 ];
 
 const brands = [
-  { name: "LEGO", logo: "https://placehold.co/120x60/d9222a/ffffff?text=LEGO" },
+  { name: "LEGO", logo: "../products/logos/legoLogo.png" },
   {
     name: "Disney",
-    logo: "https://placehold.co/120x60/192f7a/ffffff?text=Disney",
+    logo: "../products/logos/Disney.jpeg",
   },
-  { name: "NERF", logo: "https://placehold.co/120x60/005eb8/ffffff?text=NERF" },
+  { name: "NERF", logo: "../products/logos/nerf.png" },
   {
     name: "Bestway",
-    logo: "https://placehold.co/120x60/ffffff/000000?text=Bestway",
+    logo: "../products/logos/bestways.jpeg",
   },
   {
     name: "MARVEL",
-    logo: "https://placehold.co/120x60/ed1d24/ffffff?text=MARVEL",
+    logo: "../products/logos/marvel.jpeg",
   },
   {
     name: "HotWheels",
-    logo: "https://placehold.co/120x60/005eb8/ffffff?text=HotWheels",
+    logo: "../products/logos/hw.jpeg",
   },
   {
     name: "Barbie",
-    logo: "https://placehold.co/120x60/e91e63/ffffff?text=Barbie",
+    logo: "../products/logos/barbie.jpeg",
   },
   {
     name: "Play-Doh",
-    logo: "https://placehold.co/120x60/ffc107/000000?text=Play-Doh",
+    logo: "../products/logos/playdoh.jpeg",
   },
-  { name: "LOL", logo: "https://placehold.co/120x60/e040fb/ffffff?text=LOL" },
+  { name: "LOL", logo: "../products/logos/lol.jpeg" },
 ];
 
 const newArrivals = [
@@ -301,31 +301,31 @@ const newArrivals = [
     id: 1,
     title: "Gabby's Dollhouse Cakey Cat",
     price: 29.0,
-    img: "https://placehold.co/300x300/png?text=Toy+1",
+    img: "../products/gabbyCat.jpeg",
   },
   {
     id: 2,
     title: "Yima Toys Dancing Challenge",
     price: 149.0,
-    img: "https://placehold.co/300x300/png?text=Toy+2",
+    img: "../products/yimaToys.jpeg",
   },
   {
     id: 3,
     title: "Wood Piano 37 Keys",
     price: 349.0,
-    img: "https://placehold.co/300x300/png?text=Toy+3",
+    img: "../products/woodenPiano.jpeg",
   },
   {
     id: 4,
     title: "VTECH Swipe Laptop",
     price: 199.0,
-    img: "https://placehold.co/300x300/png?text=Toy+4",
+    img: "../products/vtechLaptop.jpeg",
   },
   {
     id: 5,
     title: "VTECH Splashing Fun Otter",
     price: 199.0,
-    img: "https://placehold.co/300x300/png?text=Toy+5",
+    img: "../products/vtechSplashing.jpeg",
   },
 ];
 
