@@ -208,7 +208,6 @@ import {
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
-// 1. DEFINE THE INTERFACE
 interface Product {
   id: number;
   title: string;
@@ -226,7 +225,6 @@ interface Product {
   stock: number;
 }
 
-// 2. APPLY RETURN TYPE TO HELPER FUNCTION
 const getProductById = (id: string): Product | null => {
   const i = parseInt(id) - 1;
   if (isNaN(i) || i < 0) return null;
@@ -306,7 +304,6 @@ const ProductDetail = () => {
     );
   }
 
-  // 4. FIX RELATED PRODUCTS TYPE
   const relatedProducts = Array.from({ length: 4 })
     .map((_, i) => getProductById((parseInt(id!) + i + 1).toString()))
     .filter((p): p is Product => p !== null);
@@ -318,7 +315,6 @@ const ProductDetail = () => {
 
   return (
     <div className="bg-white pb-20">
-      {/* Breadcrumb */}
       <div className="bg-gray-50 border-b">
         <div className="container mx-auto px-4 py-4 text-sm text-gray-500 font-medium">
           <Link to="/" className="hover:text-blue-600">
