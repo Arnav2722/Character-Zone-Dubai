@@ -48,10 +48,10 @@ const GENERATED_PRODUCTS = Array.from({ length: 144 }).map((_, i) => {
     price: price,
     originalPrice: Math.random() > 0.7 ? price + 50 : null, // 30% chance of being on sale
     img: `https://placehold.co/300x300/png?text=${brand}+${i + 1}`,
-    isNew: i < 10, // First 10 are "New"
+    isNew: i < 10, 
     brand: brand,
     category: category,
-    rating: (Math.random() * 2 + 3).toFixed(1), // 3.0 to 5.0
+    rating: (Math.random() * 2 + 3).toFixed(1),
     reviews: Math.floor(Math.random() * 200),
   };
 });
